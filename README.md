@@ -51,3 +51,5 @@ Conscientizar a população em massa sobre a cultura de reciclagem de lixo eletr
 Será iniciado um diálogo com a prefeitura de Campo Grande a fim de apresentar uma solução para complementar o trabalho realizado pela Semadur. A partir dessa apresentação, propor a implementação de uma solução de reciclagem de componentes em lixo eletrônico. 
 
 As principais entregas serão a assessoria de reciclagem de componentes e a capacitação das partes interessadas envolvidas. Em seguida orientar o fluxo de componetes recicláveis para compra, venda e doações. Com caracter de impacto social, criar workshop e aulas para atender a população sobre a tecnologia eletrônica.
+
+Mais em Planos de Negócio...
