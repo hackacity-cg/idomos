@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <!--link href="https://fonts.googleapis.com/css?family=Abel|Fredoka+One" rel="stylesheet"-->
+        <link rel="stylesheet" type="text/css" href="app.css">
+        <title>iDOMOS</title>
+    </head>
+    <body>
+        <div class="app">
+
+          <div id='splash' class='show ui vbox'>
+
+            <img src="img/logo.png" />
+            <h2>iDOMOS</h2>
+
+            <h1>Capacitação Essencial</h1>
+
+            <p class='log'>Iniciando...</p>
+
+          </div>
+
+          <div id="app-shell" class='main ui vbox'>
+
+            <header>
+              <div id='title-button'>
+                <img class='logo' src="img/logo.png" />
+                <img class='back' src='img/back.png' />
+              </div>
+              <h1>iDOMOS</h1>
+            </header>
+
+            <div id='main' class='activity ui vbox'>
+
+              <div id="profile" class='ui hbox'>
+
+                <div id='peso'>
+                  <strong>23 Kg</strong>
+                  reciclados
+                </div>
+
+                <div class='profile-pic-wr'>
+                  <img src='img/hackerman.jpg' class='profile-pic' />
+                  <img src='img/badge.png' class='profile-pic-badge' />
+                </div>
+
+                <div id='pontos'>
+                  <strong>35361</strong>
+                  pontos
+                </div>
+
+              </div>
+
+              <ul id="launcher">
+
+                <li data-activity="aprender">
+                  <img src="img/aprender-icon.png" />
+                  <h5>Aprender Eletrônica</h5>
+                </li>
+
+                <li data-activity="hackear">
+                  <img src="img/hackear-icon.png" />
+                  <h5>Hackear lixo eletrônico</h5>
+                </li>
+
+                <li data-activity="componentes">
+                  <img src="img/componentes-icon.png" />
+                  <h5>Comprar e Vender componentes</h5>
+                </h1>
+
+                <li data-activity="kits">
+                  <img src="img/kits-icon.png" />
+                  <h5>Comprar e Vender kits</h5>
+                </h1>
+
+              </ul>
+
+            </div>
+
+
+
+
+
+            <div id='aprender' class='activity'>
+
+              <h1>Aprender Eletrônica</h1>
+
+              <p>DESTINADO AOS SEPARADORES DE LIXO ELETRÔNICO (CATADORES)</p>
+
+              <h5>Capacitação</h5>
+
+              <ul>
+                <li>Triagem dos resíduos eletrônicos para separação específica de componentes.</li>
+                <li>O lixo eletrônico não tem utilização atualmente, apenas é descartado.</li>
+              </ul>
+
+              <h5>Curso de introdução à eletrônica</h5>
+
+              <ul>
+                <li>Lista de componentes eletrônicos</li>
+                <li>Componentes reutilizáveis</li>
+                <li>Equipamentos onde se obtém os componentes</li>
+                <li>Técnicas e ferramentas para obtenção dos componentes</li>
+                <li>Dicas gerais (componentes, técnicas e segurança)</li>
+              </ul>
+
+              <p>DESTINADO AOS ALUNOS (ESCOLAS, TREINAMENTOS, ETC)</p>
+
+              <h5>Curso completo</h5>
+
+              <ul>
+                <li>Matemática básica voltada à eletrônica / Matemática binária</li>
+                <li>Componentes elétricos e eletrônicos</li>
+                <li>Circuitos elétricos e Circuitos eletrônicos</li>
+                <li>Linguagens de programação (Scratch, IDE Arduíno, C++, Java)</li>
+                <li>Introdução a microcontroladores</li>
+                <li>Arduíno</li>
+                <li>Introdução a robótica e automação básica</li>
+              </ul>
+
+              <p>O ensino da eletrônica</p>
+
+              <p>
+                Promover a engenharia da criação, da integração, o
+                desenvolvimento e o conhecimento aplicada são alguns dos
+                tópicos abordados no ensino da eletrônica.
+              </p>
+
+              <p>
+                Desenvolver equipamentos e pensar em novas tecnologias é cada
+                vez mais necessário no mercado tecnológico, seja por ele estar
+                em constante mudança e por ter cada vez mais necessidade de
+                transformar uma tecnologia antiga em uma nova.
+              </p>
+
+              <p>
+                O ensino da eletrônica vai fomentar o mercado de reutilização e
+                criação de circuitos, que hoje, é cada vez mais raro.
+              </p>
+
+            </div>
+
+
+
+            <div id='hackear' class='activity'>
+
+              <h1>Hackear Lixo Eletrônico</h1>
+
+              <div class='card'>
+                <h6>Estabilizador</h6>
+                <img src='img/estabilizador.jpg' />
+                <ul>
+
+                  <li>
+                    <strong>6-20</strong>
+                    componentes
+                  </li>
+
+                  <li>
+                    <strong>R$ 5,35</strong>
+                    valor
+                  </li>
+
+                </ul>
+              </div>
+
+
+              <div class='card'>
+                <h6>No Break</h6>
+                <img src='img/nobreak.jpg' />
+                <ul>
+
+                  <li>
+                    <strong>14-40</strong>
+                    componentes
+                  </li>
+
+                  <li>
+                    <strong>R$ 15,15</strong>
+                    valor
+                  </li>
+
+                </ul>
+              </div>
+
+
+
+              <div class='card'>
+                <h6>CPU</h6>
+                <img src='img/gabinete.gif' />
+                <ul>
+
+                  <li>
+                    <strong>19-70</strong>
+                    componentes
+                  </li>
+
+                  <li>
+                    <strong>R$ 22,97</strong>
+                    valor
+                  </li>
+
+                </ul>
+              </div>
+
+
+            </div>
+
+
+
+            <div id='componentes' class='activity'>
+
+              <h1>Compra e venda de componentes</h1>
+
+              <ul class="product-list">
+
+                <li>
+                  <img src="img/rele-5v.jpg" />
+                  <div>
+                    <p>Relé</p>
+                    <small>5v</small>
+                    <h2>R$ 4,00</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <img src="img/rele-12v.jpg" />
+                  <div>
+                    <p>Relé</p>
+                    <small>12v</small>
+                    <h2>R$ 4,00</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <img src="img/diodo-in4007.jpg" />
+                  <div>
+                    <p>Diodo</p>
+                    <small>in4007</small>
+                    <h2>R$ 0,17</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <img src="img/transistor-bc.jpg" />
+                  <div>
+                    <p>Transistor</p>
+                    <small>BC</small>
+                    <h2>R$ 2,50</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <img src="img/botao.jpg" />
+                  <div>
+                    <p>Botão</p>
+                    <small>click click</small>
+                    <h2>R$ 0,50</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <img src="img/buzzer.jpg" />
+                  <div>
+                    <p>Buzzer</p>
+                    <small>fonfon</small>
+                    <h2>R$ 0,70</h2>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+
+
+            <div id='kits' class='activity'>
+
+              <h1>Compra e venda de kits</h1>
+
+              <ul class="product-list">
+
+                <li>
+                  <img src="img/mad.jpg" />
+                  <div>
+                    <p>Mod. Aut. Doméstica</p>
+                    <small>8 switches</small>
+                    <h2>R$ 120,00</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <img src="img/internet.jpg" />
+                  <div>
+                    <p>FreeWifi</p>
+                    <small>DIY com smarthphone</small>
+                    <h2>R$ 100,00</h2>
+                  </div>
+                </li>
+
+
+              </ul>
+
+            </div>
+
+
+          </div>
+
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

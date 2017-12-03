@@ -1,0 +1,16 @@
+.ui
+{
+  display: flex;
+}
+
+.ui.vbox
+{
+  flex-direction: column;
+  align-items: center;
+}
+
+.ui.hbox
+{
+  flex-direction: row;
+  align-items: center;
+}

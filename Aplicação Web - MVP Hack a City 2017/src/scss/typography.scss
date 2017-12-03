@@ -1,0 +1,35 @@
+body
+{
+  font-family: 'Abel', sans-serif;
+}
+
+h1,
+h2,
+h3
+{
+  font-family: 'Fredoka One', cursive;
+}
+
+h1
+{
+  text-align: center;
+  margin: 0px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+h2{ margin-bottom: 0px; }
+
+p{ margin: 32px; }
+
+#aprender ul
+{
+  font-size: 20px;
+  padding-right: 32px;
+}
+
+#aprender h5
+{
+  border-bottom: 3px solid $dark;
+  padding: 0px 32px 0px;
+}

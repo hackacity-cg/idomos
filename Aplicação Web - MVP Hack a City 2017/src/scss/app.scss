@@ -1,0 +1,70 @@
+@import "normalize";
+@import "constants";
+@import "typography";
+@import "fonts";
+@import "icons";
+@import "ui";
+@import "layout";
+@import "input";
+@import "splash";
+
+
+body
+{
+    background: $light;
+    color: darken($dark, 20%);
+    font-size: 28px;
+}
+
+header
+{
+  background: $dark;
+  color: $light;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 0px;
+}
+
+.inverted
+{
+  background: $light;
+  color: $dark;
+}
+
+#app-shell
+{
+  height: 100vh;
+}
+
+#app-shell.main #title-button .logo
+{
+  display: block;
+}
+
+#app-shell.main #title-button .back
+{
+  display: none;
+}
+
+#title-button  img
+{
+  display: block;
+  width: 48px;
+  height: 48px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#title-button .logo
+{
+  display: none;
+}
+
+
+
+footer
+{
+  display: none;
+}
