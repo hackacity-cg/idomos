@@ -53,3 +53,6 @@ Será iniciado um diálogo com a prefeitura de Campo Grande a fim de apresentar 
 As principais entregas serão a assessoria de reciclagem de componentes e a capacitação das partes interessadas envolvidas. Em seguida orientar o fluxo de componetes recicláveis para compra, venda e doações. Com caracter de impacto social, criar workshop e aulas para atender a população sobre a tecnologia eletrônica.
 
 Mais em Planos de Negócio...
+
+--------------------------------------
+Por Mateus, Guilherme, Lean, Rodrigo, Pedro e Vitória
